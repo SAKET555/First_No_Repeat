@@ -1,8 +1,8 @@
 def Check_word(input_string):
-    List = input_string.split()
+    list = input_string.split()
     longest_word = ""
     vowels = set("aeiouAEIOU")
-    for word in List:
+    for word in list:
         if all(char not in vowels for char in word):
             if len(longest_word) < len(word):
                 longest_word = word
