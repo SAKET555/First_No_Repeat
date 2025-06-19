@@ -11,5 +11,5 @@ def Check_word(input_string):
     return longest_word
 
 input_string = input("Sentence : ")
-answer = Check_word(input_string)
-print("Answer is ", answer)
+solution = Check_word(input_string)
+print("Answer is ", solution)
